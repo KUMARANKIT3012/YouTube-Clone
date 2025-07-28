@@ -11,4 +11,13 @@ body {
   padding-top: 80px;
   padding-left: 96px;
   padding-right: 24px;
+  transition: padding-left 0.15s;
+}
+
+@media(min-width:1001px) {
+
+  body{
+    padding-left: 224px;
+  }
+
 }
